@@ -1,0 +1,341 @@
+.container {
+  /* position: relative; */
+ 
+}
+.container_1 {
+  /* position: relative; */
+  
+}
+
+/* heder section */
+._header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+._logo {
+  margin-left: 120px;
+  /* margin-top: 27px; */
+}
+.logo {
+  width: 123px;
+  /* height: 123px; */
+  object-fit: contain;
+}
+.anchors {
+  margin-top: 68;
+  margin-right: 25px;
+  align-items: center;
+  z-index: 100;
+}
+a:hover {
+  color: #663399;
+}
+.left_a {
+  margin-left: 34px;
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans";
+  z-index: 122;
+}
+.right_b {
+  width: 118px;
+  height: 45px;
+  background-image: linear-gradient(to right, #663399, #995dc4);
+  color: white;
+  margin-left: 34px;
+  font-family: "Open Sans";
+  border: none;
+  border-radius: 24px;
+  opacity: 1;
+  z-index: 111;
+}
+.right_b:hover {
+  background-image: linear-gradient(to right, #995dc4, #663399);
+  color: #f68420;
+}
+.mid_b {
+  width: 118px;
+  height: 45px;
+  background-color: transparent;
+  color: #663399;
+  margin-left: 34px;
+  font-family: "Open Sans";
+  border: 2px solid #663399;
+  border-radius: 24px;
+  opacity: 1;
+}
+.mid_b:hover {
+  background-color: #663399;
+  color: #fff;
+}
+/* images section */
+
+.images {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.left_images{
+  width: 50%;
+}
+.right_images{
+  width: 50%;
+}
+.small_img {
+  position: relative;
+  top: -9px;
+  left: -179px;
+  width: 495px;
+  height: 472px;
+  z-index: 1;
+}
+.collect_img {
+  /* position: absolute; */
+  opacity: 1;
+  margin-top: -246px;
+  margin-left: 104px;
+  width: 379px;
+  height: 225px;
+  z-index: 2;
+  margin-right: 353px;
+}
+.circle_img {
+  position: sticky;
+  width: 278%;
+  height: 823px;
+  margin-top: -299px;
+  margin-left: 44px;
+  z-index: 1;
+}
+.acc_dot1{
+  margin-left: 218px;
+    margin-top: -31px;
+    width: 332px;
+}
+.acc_dot2{
+  margin-left: 127%;
+  width: 332px;
+  margin-top: -66px;
+  position: absolute;
+}
+/* This section styles are for container 2 */
+.container_2{
+  display: flex;
+  background-image: url(../assets/sol_wave_bg.svg);
+  height: 900px;
+  width: auto;
+  margin-top: 50px;
+  padding: 30px;
+}
+.container_2_mid{
+  margin-top: 120px;
+}
+.right_section{
+  margin-top: 250px;
+  margin-left: 50px;
+  font-family: "Montserrat";
+  
+}
+.right_section >hr{
+  margin-top: 40px;
+  width: 120px;
+  height: 2px;
+  background-color: grey;
+}
+.last_b{
+    width: 225px;
+    height: 45px;
+    background-color: transparent;
+    color: #663399;
+    margin-top: 65px;
+    font-family: "Open Sans";
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.last_b:hover{
+  background-color: #663399;
+  color: #fff;
+}
+
+/*eligibility criteria section */
+.eli_container{
+  display: flex;
+  float: right;
+}
+.eligibility{
+
+  height: 430px;
+  width: 332px;
+ 
+  object-fit: contain;
+  opacity: 2;
+  z-index: 1111;
+  float: right;
+  background-color: #D9CCE6;
+  opacity: 100%;
+  text-align: center;
+  
+  margin-right: 170px;
+  border-radius: 25px;
+  font-family: "Open Sans";
+  margin-top: 40px;
+}
+.calculator{
+  background-color: #ECECEC;
+  border-radius: 25px 25px 0px 0px;
+  padding: 5px;
+}
+.eligibility_childs{
+  padding: 20px;
+  align-items: center;
+}
+.eligibility_childs >p{
+  font-size: 12px;
+  float: left;
+  padding: 5px;
+}
+.tog_switch >p{
+  font-size: 12px;
+  margin-top: 14px;
+  float: left;
+  margin-bottom: 8px;
+
+}
+.loan >p{
+  font-size: 12px;
+  margin-top: 9px;
+  float: left;
+  margin-bottom: -3px;
+}
+.income_val{
+  font-size: 15px;
+  margin-top: 17px;
+  padding: 6px;
+  float: left;
+  /* margin-bottom: 16px; */
+  margin-left: -90px;
+}
+.loan >input[type=text] {
+  border: none;
+  border-bottom: 2px solid #D9CCE6;
+  width: 300px;
+  height: 30px;
+  margin-top: 5px;
+}
+.eli_right{
+  margin-left: -168px;
+  margin-right: 59px;
+  background-color: #68359B;
+  border: 1px solid #68359B;
+  width: 137px;
+  height: 236px;
+  margin-top: 140px;
+  /* flex: 0.3; */
+  border-radius: 0px 15px 15px 0px;
+}
+.m_income{
+  font-size: 12px;
+  float: left;
+  margin-bottom: 12px
+}
+.m_expense{
+  font-size: 12px;
+  float: left;
+  margin-top: 7px;
+}
+.expense_val> h4 {
+  margin-top: -7px !important;
+  float: left;
+  margin-right: 199px;
+  padding: 11px;
+  margin-bottom: -25px;
+}
+::ng-deep .ngx-slider .ngx-slider-bubble{
+  visibility: hidden !important;
+}
+::ng-deep .ngx-slider .ngx-slider-pointer{
+  background-color: #ffffff !important;
+}
+::ng-deep .ngx-slider .ngx-slider-pointer:after{
+  background-color: #68359B !important;
+}
+.loan >input{
+  border: none;
+    border-bottom: 4px solid #D8E0F3 !important;
+    width: 286px !important;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #D9CCE6;
+}
+.repay_time> p{
+  font-size: 12px;
+  margin-bottom: 10px;
+  float: left;
+  margin-top: 7px;
+}
+.loan_amt >p{
+  margin-top: 45px;
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 25px;
+  margin-bottom: 3px;
+  font-family: 'Montserrat'
+}
+.loan_amt >h3{
+  color: #ffffff;
+    margin-left: 22px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+.emi_amt >p{
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 22px;
+  margin-left: 22px;
+  font-family: 'Montserrat'
+}
+.emi_amt >h3{
+  color: #ffffff;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+.get_money{
+  width: 98px;
+  height: 39px;
+  background-color: #ffffff;
+  color: #663399;
+  margin-left: 19px;
+  font-family: "Open Sans";
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  opacity: 1;
+  margin-top: 18px;
+  z-index: 20000;
+}
+.eli_right .get_money:hover{
+  background-color: #F68420 !important;
+  color: #ffffff !important;
+  border: 2px solid #F68420 !important;
+}
+.ui_swtch{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+::ng-deep .switch-small{
+  width: 33px !important;
+    height: 20px;
+    border-radius: 20px;
+    margin-top: 12px !important;
+    margin-left: 56px;
+}
+#left_cards_colored{
+  background-color: #995dc4 !important;
+}
