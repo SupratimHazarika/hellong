@@ -27,30 +27,30 @@ export class AppComponent {
 
   cardContent = [
     {
-      img: '../assets/Get Paid Instantly.png',
+      img: './assets/Get Paid Instantly.png',
       headingLine: 'Quick cash disbursement',
       para: 'Get terms loans that your business needs within 72 hrs',
     },
     {
-      img: '../assets/Low interest rate.png',
+      img: './assets/Low interest rate.png',
       headingLine: 'Low-interest rate',
       para:
         'Achieve your financial goals with an amazing interest rate starting at 13% per annum',
     },
     {
-      img: '../assets/Secure Payments.png',
+      img: './assets/Secure Payments.png',
       headingLine: 'Zero Paperwork',
       para:
         'Get started instantly by submitting only your basic details & bank statements',
     },
     {
-      img: '../assets/freelancer_feature_icon_6@1.5x.png',
+      img: './assets/freelancer_feature_icon_6@1.5x.png',
       headingLine: 'Ace your business finances',
       para:
         'Manage banking, accounting & everything in between, on one platform',
     },
     {
-      img: '../assets/Covid.png',
+      img: './assets/Covid.png',
       headingLine: 'Loans to fight COVID-19',
       para:
         'Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh',
